@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -2776,19 +2777,36 @@
     <article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto">MIT License</p>
 <p dir="auto">Copyright (c) 2022 Jeff Bredenkamp</p>
 <p dir="auto">Permission is hereby granted, free of charge, to any person obtaining a copy
+=======
+MIT License
+
+Copyright (c) 2022 Jeff Bredenkamp
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+>>>>>>> 29e10b6386a1ce103c5b0e79c619f7e32f08581f
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
+<<<<<<< HEAD
 furnished to do so, subject to the following conditions:</p>
 <p dir="auto">The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.</p>
 <p dir="auto">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+=======
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+>>>>>>> 29e10b6386a1ce103c5b0e79c619f7e32f08581f
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+<<<<<<< HEAD
 SOFTWARE.</p>
 </article>
   </div>
@@ -2936,3 +2954,6 @@ SOFTWARE.</p>
   </body>
 </html>
 
+=======
+SOFTWARE.
+>>>>>>> 29e10b6386a1ce103c5b0e79c619f7e32f08581f

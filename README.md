@@ -29,9 +29,13 @@ A simple set of flat buttons written in SASS and HTML.
 #### Disabled
 
 ```html
-<a href="#" class="btn btn-primary small" role="button">Small Button</a>
-<a href="#" class="btn btn-primary" role="button">Medium Button</a>
-<a href="#" class="btn btn-primary large" role="button">Large Button</a>
+<a href="#" class="btn disabled">Default</a>
+<a href="#" class="btn btn-primary disabled" role="button" aria-disabled="true">Primary</a>
+<a href="#" class="btn btn-secondary disabled" role="button" aria-disabled="true">Secondary</a>
+<a href="#" class="btn btn-outline disabled" role="button" aria-disabled="true">Outline</a>
+<a href="#" class="btn btn-success disabled" role="button" aria-disabled="true">Success</a>
+<a href="#" class="btn btn-warning disabled" role="button" aria-disabled="true">Warning</a>
+<a href="#" class="btn btn-error disabled" role="button" aria-disabled="true">Error</a>
 ```
 
 #### Buttons with text and icon

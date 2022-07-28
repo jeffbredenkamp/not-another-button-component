@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap');
+
+// Colours
+
+$primary: #0046a4;
+$neutral: #FCFCFE;
+$text-colour: #65748b;
+$heading-colour: #11182a;
+
+// Spacing
+
+$spacing-xs: .75rem;
+$spacing-sm: 1.5rem;
+$spacing-md: 3rem;
+$spacing-lg: 6rem;
+$spacing-xl: 12rem;
+
+html {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    -webkit-text-size-adjust: 100%;
+    image-rendering: crisp-edges;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: $text-colour;
+}
+
+// Typography
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1.25;
+    font-weight: 800;
+    color: $heading-colour;
+  }
+  
+  h1 { font-size: 2rem; line-height: 1; letter-spacing: -1px; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.1rem; }
+  h6 { font-size: 1rem; }
+  
+  /* Larger than phablet */
+  @media (min-width: 640px) {
+    h1 { font-size: 3.0rem; 
+        &.jumbo {
+            font-size: 3.5rem;
+            letter-spacing: -2px;
+            line-height: 1;
+        }
+    }
+    h2 { font-size: 2.5rem; margin-top: $spacing-xs; letter-spacing: -1px; }
+    h3 { font-size: 2.0rem; }
+    h4 { font-size: 1.5rem; }
+    h5 { font-size: 1.25rem; }
+    h6 { font-size: 1rem; }
+  }
+
+  // Grid
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .grid {
+    display: block;
+    
+    @media (min-width: 640px) {
+      display: flex;
+    }
+    
+    &-col {
+      width: 100%;
+      flex: 1;
+      
+      @media (min-width: 640px) {
+        margin-left: 50px;
+        margin-bottom: 0;
+  
+        &:first-child {
+          margin-left: 0;
+        }
+        
+        &-2 {
+          flex: 2;
+        }
+        
+        &-3 {
+          flex: 3;
+        }
+      }
+    }
+    
+  }
+
+// Hero
+
+#hero {
+    background: $neutral;
+    padding: $spacing-xl 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    .kicker {
+        font-size: .75rem;
+        background: #dedcfb;
+        display: inline-block;
+        color: #5850EC;
+        padding: 0.375rem;
+        border-radius: 8px;
+        line-height: 1;
+        font-weight: 700;
+    }
+
+    .grid {
+        position: relative;
+        z-index: 1;
+    }
+
+    .loop-1 {
+    position: absolute;
+    overflow: hidden;
+    will-change: transform;
+    width: 888px;
+    height: 888px;
+    left: calc(50% - 444px);
+    top: calc(50% - 444px);
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    opacity: .5;
+    border: 1px solid #e4e5e6;
+
+    &:after {
+        top: 0;
+        content: '';
+        left: 50%;
+        width: 10px;
+        height: 10px;
+        background: blue;
+        border-radius: 50%;
+    }
+    }
+
+    .loop-2 {
+    position: absolute;
+    overflow: hidden;
+    will-change: transform;
+    width: 660px;
+    height: 660px;
+    left: calc(50% - 330px);
+    top: calc(50% - 330px);
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    opacity: .4;
+    border: 1px solid #e4e5e6;
+    }
+
+    .loop-3 {
+        position: absolute;
+        overflow: hidden;
+        will-change: transform;
+        width: 432px;
+        height: 432px;
+        left: calc(50% - 216px);
+        top: calc(50% - 216px);
+        flex: 0 0 auto;
+        aspect-ratio: 1 / 1;
+        border-radius: 100%;
+        opacity: .3;
+        border: 1px solid #e4e5e6;
+        }
+    h1 {
+        span {
+            color: #5850EC;
+        }
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #5850EC;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        line-height: 54px;
+        font-size: 1.25rem;
+        box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 8px 10px -6px rgba(0,0,0,0.1);
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+  #hero {
+    padding: $spacing-lg 0;
+  }
+}
+
+#examples {
+    padding: $spacing-lg 0;
+}
+
+footer {
+  padding: $spacing-md;
+  text-align: center;
+  background: $neutral;
+}

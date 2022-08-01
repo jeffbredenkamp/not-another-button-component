@@ -137,7 +137,7 @@ h6 {
 }
 
 #hero {
-  background: #FCFCFE;
+  background: #f7f7f9;
   padding: 12rem 0;
   overflow: hidden;
   position: relative;
@@ -174,17 +174,7 @@ h6 {
   aspect-ratio: 1 / 1;
   border-radius: 100%;
   opacity: .5;
-  border: 1px solid #e4e5e6;
-}
-
-#hero .loop-1:after {
-  top: 0;
-  content: '';
-  left: 50%;
-  width: 10px;
-  height: 10px;
-  background: blue;
-  border-radius: 50%;
+  border: 1px solid #dedcfb;
 }
 
 #hero .loop-2 {
@@ -201,7 +191,7 @@ h6 {
   aspect-ratio: 1 / 1;
   border-radius: 100%;
   opacity: .4;
-  border: 1px solid #e4e5e6;
+  border: 1px solid #dedcfb;
 }
 
 #hero .loop-3 {
@@ -218,7 +208,7 @@ h6 {
   aspect-ratio: 1 / 1;
   border-radius: 100%;
   opacity: .3;
-  border: 1px solid #e4e5e6;
+  border: 1px solid #dedcfb;
 }
 
 #hero h1 span {
@@ -260,6 +250,6 @@ h6 {
 footer {
   padding: 3rem;
   text-align: center;
-  background: #FCFCFE;
+  background: #f7f7f9;
 }
 /*# sourceMappingURL=styles.css.map */

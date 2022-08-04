@@ -10,7 +10,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 2px solid #585d6a;
+  border: 1px solid #585d6a;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -105,7 +105,7 @@
 }
 .btn-group.btn-group-horizontal .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
-  margin-left: -2px;
+  margin-left: -1px;
 }
 .btn-group.btn-group-horizontal .btn:first-child {
   border-top-right-radius: 0;
@@ -114,7 +114,7 @@
 .btn-group.btn-group-horizontal .btn:last-child {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  margin-left: -2px;
+  margin-left: -1px;
 }
 .btn-group.btn-group-vertical .btn {
   display: block;
@@ -122,7 +122,7 @@
 }
 .btn-group.btn-group-vertical .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
-  margin-top: -2px;
+  margin-top: -1px;
 }
 .btn-group.btn-group-vertical .btn:first-child {
   border-bottom-right-radius: 0;
@@ -131,5 +131,5 @@
 .btn-group.btn-group-vertical .btn:last-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  margin-top: -2px;
+  margin-top: -1px;
 }

@@ -4,7 +4,7 @@ const sass = require('gulp-sass')(require('sass'))
 function buildButtons() {
     return src('source/not-another-button-component.scss')
     .pipe(sass())
-    .pipe(dest('dist/mono'))
+    .pipe(dest('dist'))
 }
 
 function watchTask() {

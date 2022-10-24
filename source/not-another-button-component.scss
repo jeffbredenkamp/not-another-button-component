@@ -7,6 +7,12 @@ $success: #14c6a4;
 $warning: #fec800;
 $error: #ff4156;
 
+// Radius
+$radius-small: 3px;
+$radius-medium: 6px;
+$radius-large: 12px;
+$radius-circle: 50%;
+
 // Buttons Component
 
 .btn {
@@ -22,10 +28,10 @@ $error: #ff4156;
   -ms-user-select: none;
   user-select: none;
   border: 1px solid $default;
-  padding: 0.375rem .75rem;
+  padding: 0.75rem .75rem;
   font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 6px;
+  line-height: 1;
+  border-radius: $radius-medium;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin-bottom: 0.25rem;
@@ -103,12 +109,30 @@ $error: #ff4156;
   // Size
 
   &.small {
-    padding: 0.1875rem 0.375rem;
+    padding: 0.375rem 0.375rem;
     font-size: 0.75rem;
   }
   &.large {
-    padding: 0.75rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     font-size: 1.25rem;
+  }
+
+  // Radius
+
+  &.radius-none {
+    border-radius: 0;
+  }
+
+  &.radius-small {
+    border-radius: $radius-small;
+  }
+
+  &.radius-large {
+    border-radius: $radius-large;
+  }
+
+  &.radius-circle {
+    border-radius: $radius-circle;
   }
 
   // Disabled

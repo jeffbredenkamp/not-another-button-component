@@ -173,7 +173,7 @@ h6 {
           flex: 0 0 auto;
   aspect-ratio: 1 / 1;
   border-radius: 100%;
-  opacity: .5;
+  opacity: 1;
   border: 1px solid #dedcfb;
 }
 
@@ -190,7 +190,7 @@ h6 {
           flex: 0 0 auto;
   aspect-ratio: 1 / 1;
   border-radius: 100%;
-  opacity: .4;
+  opacity: .75;
   border: 1px solid #dedcfb;
 }
 
@@ -207,7 +207,7 @@ h6 {
           flex: 0 0 auto;
   aspect-ratio: 1 / 1;
   border-radius: 100%;
-  opacity: .3;
+  opacity: .5;
   border: 1px solid #dedcfb;
 }
 

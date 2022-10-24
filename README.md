@@ -58,6 +58,16 @@ A simple set of flat buttons written in SASS and HTML.
 <a href="#" class="btn" role="button"><i class="fas fa-question-circle"></i></a>
 ```
 
+#### Border Radius
+
+```html
+<a href="#" class="btn btn-primary radius-none" role="button">No Radius</a>
+<a href="#" class="btn btn-primary radius-small" role="button">Small Radius</a>
+<a href="#" class="btn btn-primary" role="button">Medium Radius</a>
+<a href="#" class="btn btn-primary radius-large" role="button">Large Button</a>
+<a href="#" class="btn btn-primary radius-circle" role="button"><i class="fa-solid fa-pen"></i></a>
+```
+
 #### Horizontal button group
 
 ```html

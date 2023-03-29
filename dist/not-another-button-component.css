@@ -1,5 +1,6 @@
 .btn {
   display: inline-block;
+  position: relative;
   color: #fff;
   background-color: #585d6a;
   border-color: #585d6a;
@@ -14,10 +15,10 @@
   padding: 0.75rem 0.75rem;
   font-size: 1rem;
   line-height: 1;
-  border-radius: 6px;
+  border-radius: 8px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin-bottom: 0.25rem;
-  font-family: "Inter", sans-serif;
+  font-family: inherit;
   cursor: pointer;
   text-decoration: none;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
@@ -95,10 +96,10 @@
   border-radius: 0;
 }
 .btn.radius-small {
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .btn.radius-large {
-  border-radius: 12px;
+  border-radius: 16px;
 }
 .btn.radius-circle {
   border-radius: 50%;
@@ -107,6 +108,34 @@
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.75;
+}
+.btn.loading {
+  color: transparent;
+}
+.btn.loading:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  content: "";
+  background: 0 0;
+  border: 2px solid #fff;
+  -webkit-clip-path: inset(0 0 50% 0);
+  clip-path: inset(0 0 50% 0);
+  transform: rotate(0);
+  -webkit-animation: spin 0.6s linear infinite;
+  animation: spin 0.6s linear infinite;
+}
+.btn.loading.btn-outline:before {
+  border-color: #585d6a;
+}
+.btn.loading.btn-outline:hover {
+  color: transparent;
+}
+.btn.loading.btn-outline:hover:before {
+  border-color: white;
 }
 
 .btn-group {
@@ -144,4 +173,13 @@
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   margin-top: -1px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+html {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  -webkit-text-size-adjust: 100%;
+  image-rendering: crisp-edges;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #65748b;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #11182a;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 640px) {
+  h1 {
+    font-size: 3.0rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 0.75rem;
+    letter-spacing: -1px;
+  }
+  h3 {
+    font-size: 2.0rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+#hero {
+  background: #eeeff0;
+  padding: 6rem 0;
+}
+
+#hero .kicker {
+  font-size: .65rem;
+  background: #dedcfb;
+  display: inline-block;
+  color: #5850ec;
+  padding: 0.375rem .75rem;
+  border-radius: 6px;
+  line-height: 1;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+#hero h1 span {
+  color: #5850EC;
+}
+
+#hero p {
+  margin-bottom: 1.5rem;
+}
+
+#examples {
+  padding: 6rem 0;
+}
+
+.language-markup {
+  margin: 1.75rem 0!important;
+  background: #eeeff0!important;
+  border-radius: 6px;
+}
+
+footer {
+  padding: 3rem;
+  text-align: center;
+  background: #eeeff0;
+}

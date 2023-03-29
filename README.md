@@ -38,6 +38,18 @@ A simple set of flat buttons written in SASS and HTML.
 <a href="#" class="btn btn-error disabled" role="button" aria-disabled="true">Error</a>
 ```
 
+#### Loading
+
+```html
+<a href="#" class="btn loading" role="button">Loading</a>
+<a href="#" class="btn btn-primary loading" role="button">Loading</a>
+<a href="#" class="btn btn-secondary loading" role="button">Loading</a>
+<a href="#" class="btn btn-outline loading" role="button">Loading</a>
+<a href="#" class="btn btn-success loading" role="button">Loading</a>
+<a href="#" class="btn btn-warning loading" role="button">Loading</a>
+<a href="#" class="btn btn-error loading" role="button">Loading</a>
+```
+
 #### Buttons with text and icon
 
 ```html
@@ -64,7 +76,7 @@ A simple set of flat buttons written in SASS and HTML.
 <a href="#" class="btn btn-primary radius-none" role="button">No Radius</a>
 <a href="#" class="btn btn-primary radius-small" role="button">Small Radius</a>
 <a href="#" class="btn btn-primary" role="button">Medium Radius</a>
-<a href="#" class="btn btn-primary radius-large" role="button">Large Button</a>
+<a href="#" class="btn btn-primary radius-large" role="button">Large Radius</a>
 <a href="#" class="btn btn-primary radius-circle" role="button"><i class="fa-solid fa-pen"></i></a>
 ```
 

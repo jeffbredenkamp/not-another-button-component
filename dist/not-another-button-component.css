@@ -137,6 +137,14 @@
 .btn.loading.btn-outline:hover:before {
   border-color: white;
 }
+.btn.loading.small:before {
+  width: 12px;
+  height: 12px;
+}
+.btn.loading.large:before {
+  width: 22px;
+  height: 22px;
+}
 
 .btn-group {
   display: inline-block;
